@@ -26,7 +26,9 @@ Here's a walkthrough of implemented features:
 <img src='/assets/app-walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with **default Mac screen recording tool** and **Canva video to GIF converter**.
+GIF created with:
+* Default Mac screen recording tool
+* Canva video to GIF converter
 
 ## Notes
 
