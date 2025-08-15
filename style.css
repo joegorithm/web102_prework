@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: stretch;
+    border-radius: 12px;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -62,6 +69,35 @@ body {
     box-shadow: 0 0 30px lightblue;
 }
 
+.game-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.game-number {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.game-number-label {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: slategrey;
+}
+
+.game-number-value {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
 #button-container {
     text-align: center;
 }
@@ -72,4 +108,21 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+input {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    width: 200px;
+}
+
+input:hover {
+    box-shadow: 0 0 10px lightblue;
+}
+
+input:active, input:focus {
+    outline: 3px solid lightblue;
 }
